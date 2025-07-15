@@ -277,7 +277,8 @@ background-image: url(/img/lovebubu2.jpg);
 
 @media (max-width: 991px) {
   #testimonials {
-    background-image: url(/img/lovebubu3.jpg);
+    background-image: url(/img/lovebubu3.jpg) !important;
+    background-color: red !important;
   }
 }
 

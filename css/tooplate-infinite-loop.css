@@ -697,3 +697,20 @@ p {
     margin: 0;
   }
 }
+@media (max-width: 767px) {
+  #infinite,
+  #contact,
+  #testimonials {
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #infinite,
+  #contact,
+  #testimonials {
+    background-size: cover;
+    background-position: center;
+  }
+}
+

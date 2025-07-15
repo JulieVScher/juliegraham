@@ -277,8 +277,7 @@ background-image: url(/img/lovebubu2.jpg);
 
 @media (max-width: 991px) {
   #testimonials {
-    background-image: url(/img/lovebubu3.jpg) !important;
-    background-color: red !important;
+    background-image: url(/img/infinite-loop-02-mobile.jpg) !important;
   }
 }
 

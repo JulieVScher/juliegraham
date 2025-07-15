@@ -277,7 +277,7 @@ background-image: url(/img/lovebubu2.jpg);
 
 @media (max-width: 991px) {
   #testimonials {
-    background-image: url(../img/lovebubu3.jpg);
+    background-image: url(/img/lovebubu3.jpg);
   }
 }
 
@@ -695,22 +695,6 @@ p {
 
   .tm-gallery-item {
     margin: 0;
-  }
-}
-@media (max-width: 767px) {
-  #infinite,
-  #contact,
-  #testimonials {
-    background-size: cover;
-    background-position: center;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  #infinite,
-  #contact,
-  #testimonials {
-    background-size: cover;
-    background-position: center;
   }
 }
 

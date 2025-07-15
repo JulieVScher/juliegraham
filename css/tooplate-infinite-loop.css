@@ -697,12 +697,12 @@ p {
     margin: 0;
   }
 
- @media (max-width: 991px) {
+@media (max-width: 991px) {
   #contact {
     background-image: url(/img/lovebubu3.jpg);
-    background-size: cover;
+    background-size: cover;     /* fills the area, cropping if needed */
+    background-position: center center; /* center the image */
     background-repeat: no-repeat;
-    background-position: center;
   }
 }
 }

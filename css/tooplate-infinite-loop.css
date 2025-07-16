@@ -697,3 +697,12 @@ p {
     margin: 0;
   }
 }
+@media (max-width: 991px) {
+  .tm-parallax,
+  .tm-parallax-2 {
+    background-attachment: scroll !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+}
+

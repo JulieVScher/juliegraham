@@ -696,18 +696,25 @@ p {
   .tm-gallery-item {
     margin: 0;
   }
-} /* <-- THIS closes the 480px block */
+}
 
-/* Now your 991px block is separate */
+/* Styles for screens up to 991px wide */
 @media (max-width: 991px) {
   #contact {
     background-color: transparent;
     background-image: url(/img/Lovebubu5.jpg);
-    background-size: cover;
-    background-position: center center;
+    background-size: contain !important;
+    background-position: center center !important;
     background-repeat: no-repeat;
-    min-height: 350px;
+    min-height: 350px !important;
     padding-top: 50px;
     padding-bottom: 30px;
+  }
+
+  #testimonials {
+    background-size: contain !important;
+    background-position: center center !important;
+    background-repeat: no-repeat;
+    min-height: 350px !important;
   }
 }

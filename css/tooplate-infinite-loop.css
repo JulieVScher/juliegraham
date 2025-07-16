@@ -703,10 +703,9 @@ p {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    min-height: 400px; /* or even 350px */
+    min-height: 350px;
     padding-top: 50px;
     padding-bottom: 30px;
   }
-}
 }
 

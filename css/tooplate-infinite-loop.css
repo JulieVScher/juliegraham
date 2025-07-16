@@ -696,6 +696,9 @@ p {
   .tm-gallery-item {
     margin: 0;
   }
+} /* <-- THIS closes the 480px block */
+
+/* Now your 991px block is separate */
 @media (max-width: 991px) {
   #contact {
     background-color: transparent;
@@ -708,4 +711,3 @@ p {
     padding-bottom: 30px;
   }
 }
-

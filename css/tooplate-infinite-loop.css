@@ -702,6 +702,7 @@ p {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    min-height: 600px; /* adjust this to fit your image ratio */
   }
 }
 }

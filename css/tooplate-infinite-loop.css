@@ -696,15 +696,12 @@ p {
   .tm-gallery-item {
     margin: 0;
   }
-
 @media (max-width: 991px) {
   #contact {
-    background-image: url(/img/lovebubu3.jpg);
-    background-size: cover;            /* fill container without distortion */
-    background-position: center top;   /* adjust as needed */
+    background-image: url(/img/lovebubu4.jpg);
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    min-height: 350px;                 /* smaller height to reduce stretching */
-    max-height: 450px;                 /* optional max height */
   }
 }
 }

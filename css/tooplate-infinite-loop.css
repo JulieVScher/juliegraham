@@ -698,7 +698,6 @@ p {
   }
 }
 
-/* Styles for screens up to 991px wide */
 @media (max-width: 991px) {
   #contact {
     background-color: transparent;
@@ -712,9 +711,11 @@ p {
   }
 
   #testimonials {
+    background-image: url(/img/lovebubu4.jpg);
     background-size: contain !important;
     background-position: center center !important;
     background-repeat: no-repeat;
     min-height: 350px !important;
   }
 }
+

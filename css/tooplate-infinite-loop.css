@@ -698,12 +698,13 @@ p {
   }
 @media (max-width: 991px) {
   #contact {
+    background-color: transparent;  /* Remove blue background on mobile */
     background-image: url(/img/lovebubu5.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 80vw; /* height based on viewport width to keep aspect ratio */
-    max-height: 600px; /* optional max height */
+    height: 80vw;
+    max-height: 600px;
   }
 }
 }
